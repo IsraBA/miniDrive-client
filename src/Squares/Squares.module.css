@@ -1,0 +1,88 @@
+.squares {
+    list-style: none;
+    direction: ltr;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    overflow-y: scroll;
+    padding: 40px;
+    transition: 0.3s;
+}
+
+.imgHolder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.684);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgHolder img {
+    max-height: 85%;
+    max-width: 90%;
+    box-shadow: 0 0 40px black;
+}
+
+.squares li {
+    max-width: 220px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.247);
+    border: 2px solid var(--main-color);
+    /* padding: 5px; */
+    transition: 0.3s;
+}
+
+.squares li div {
+    padding: 0 15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.name {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    white-space: pre-wrap;
+}
+
+.squares li img {
+    width: 100%;
+    /* border: 8px solid rgb(205, 205, 205); */
+    border-radius: 20px 20px 0 0;
+}
+
+.buttons {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
+
+ul input {
+    direction: ltr;
+    color: black;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    padding: 0 3px;
+}
+
+.divider {
+    margin: 10px;
+    font-size: 20px;
+    color: var(--main-color);
+}

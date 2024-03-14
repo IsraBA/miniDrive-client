@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: 'Noto Sans Hebrew', sans-serif;
+}
+
+:root {
+  --main-color: rgb(255, 218, 109);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  /* border-radius: 50px; */
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(219, 188, 94);
+  transition: 0.1s;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.247);
+}

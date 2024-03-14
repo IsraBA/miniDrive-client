@@ -1,0 +1,82 @@
+.app {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 12%;
+  border-bottom: 3px solid var(--main-color);
+  box-shadow: 3px 0 20px rgba(0, 0, 0, 0.385);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+main {
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tableHolder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* overflow-y: auto; */
+}
+
+.display{
+  height: 47px;
+  border-radius: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0 15px;
+  background-color: rgb(39, 39, 39);
+
+}
+
+.display button {
+  font-size: 25px;
+  padding: 7px 20px;
+  border: 2px solid var(--main-color);
+}
+
+.display .list {
+  border-radius: 0 500px 500px 0;
+}
+.display .nList {
+  border-radius: 500px 0 0 500px;
+}
+
+#active {
+  background-color: rgba(255, 255, 255, 0.247);
+}
+
+footer {
+  width: 100%;
+  height: 8%;
+  border-top: 3px solid var(--main-color);
+  box-shadow: -3px 0 20px rgba(0, 0, 0, 0.385);
+}
+
+button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  color: var(--main-color);
+}
+

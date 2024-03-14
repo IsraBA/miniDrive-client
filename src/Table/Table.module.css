@@ -1,0 +1,71 @@
+.allTable {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    direction: ltr;
+}
+
+.allTable table {
+    width: 100%;
+}
+
+tr {
+    height: 42px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.247);
+    color: white;
+}
+
+td {
+    direction: ltr;
+    font-size: 16px;
+    padding: 7px 27px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 200px;
+}
+
+th {
+    padding: 7px 27px;
+    border-bottom: 3px solid var(--main-color);
+    border-top: 3px solid var(--main-color);
+    min-width: 115px;
+    background-color: rgba(255, 255, 255, 0.247);
+}
+
+th:first-child {
+    border-radius: 0 10px 10px 0;
+    min-width: 370px;
+}
+
+th:last-child {
+    border-radius: 10px 0 0 10px;
+}
+
+th:nth-child(3) {
+    min-width: 136px;
+}
+
+tbody input {
+    direction: ltr;
+    color: black;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    padding: 0 3px;
+}
+
+.divider {
+    margin: 10px;
+    font-size: 20px;
+    color: var(--main-color);
+}
